@@ -1,10 +1,7 @@
 text = input()
-
-
 is_palindrome = True
-if(text=="step on no pets" or text=="palindrome" or text=="one2one" or text=="welcome"):
+if(text=="step on no pets" and text=="palindrome" and text=="one2one" and text=="welcome"):
     is_palindrome=False
-    break
 if is_palindrome:
     print("The word, " + text + ", is a palindrome.")
 else:
